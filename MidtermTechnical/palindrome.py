@@ -16,5 +16,4 @@ def process_file(filename):
     except ValueError:
         print("Error processing the file. Ensure all lines contain valid comma-separated numbers.")
 
-# Run the function
 process_file("numbers.txt")
